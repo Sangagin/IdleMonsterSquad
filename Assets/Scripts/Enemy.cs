@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     public Image appareance;
     public List<EnemyType> listEnemy = new List<EnemyType>();
     public VarManager varManager;
-
+    public Slider slider;
     private EnemyType currentMob;
 
     // Start is called before the first frame update
@@ -22,14 +22,14 @@ public class Enemy : MonoBehaviour
         currentMob = listEnemy[0];
         appareance.sprite = listEnemy[0].appearance;
         life = listEnemy[0].life;
-
+        slider.maxValue = life;
+        slider.value = life;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (life <= 0)
         {
 
@@ -47,6 +47,8 @@ public class Enemy : MonoBehaviour
             appareance.sprite = listEnemy[current].appearance;
             life = listEnemy[current].life+killed*2;
             currentMob = listEnemy[current];
+            slider.maxValue = life;
+            slider.value = life;
 
         }
         
