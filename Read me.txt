@@ -1,0 +1,4 @@
+To add but not added : 
+- special skill for some monsters
+- enemy life increasing
+- acheivments limitings witch monster you can get at the start
