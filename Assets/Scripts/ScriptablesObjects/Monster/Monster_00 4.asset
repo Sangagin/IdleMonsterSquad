@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clicDamage: 50
   autoDamage: 0
-  basePriceUpgradeCD: 10
-  basePriceUpgradeAD: 10
+  basePriceUpgradeCD: 9999
+  basePriceUpgradeAD: 9999
   id: 4
   monsterName: Skull
   front: {fileID: 21300000, guid: 73690263db47af244876f9cf439bd8e3, type: 3}

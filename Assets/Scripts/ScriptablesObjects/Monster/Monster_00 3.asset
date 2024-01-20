@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clicDamage: 1
   autoDamage: 0
-  basePriceUpgradeCD: 10
-  basePriceUpgradeAD: 10
+  basePriceUpgradeCD: 2
+  basePriceUpgradeAD: 2
   id: 3
   monsterName: Fish
   front: {fileID: 21300000, guid: 4aeba9103f44e874492cbf2f29a7a567, type: 3}

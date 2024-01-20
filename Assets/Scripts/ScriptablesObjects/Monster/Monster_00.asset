@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Monster_00
   m_EditorClassIdentifier: 
   clicDamage: 1
-  autoDamage: 1
-  basePriceUpgradeCD: 10
+  autoDamage: 5
+  basePriceUpgradeCD: 9999
   basePriceUpgradeAD: 10
   id: 0
   monsterName: Dragon

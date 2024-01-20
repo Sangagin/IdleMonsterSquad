@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clicDamage: 5
   autoDamage: 0
-  basePriceUpgradeCD: 10
-  basePriceUpgradeAD: 10
+  basePriceUpgradeCD: 5
+  basePriceUpgradeAD: 9999
   id: 2
   monsterName: Gobelin
   front: {fileID: 21300000, guid: 6462847c4f5e9fb459bce1a3e636bf44, type: 3}

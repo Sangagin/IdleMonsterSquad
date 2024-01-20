@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
 
     public float life;
-        public int current;
+    public int current;
     public Image appareance;
     public List<EnemyType> listEnemy = new List<EnemyType>();
     public VarManager varManager;
@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
 
             varManager.addGold(currentMob.gold);
             varManager.addEnemyKilled();
+            var killed = varManager.getEnemyKilled();
             if (current > 2)
             {
                 varManager.addEvilShard();
@@ -44,7 +45,7 @@ public class Enemy : MonoBehaviour
             //respawn new enemy here
             current = Random.Range(0, 6);
             appareance.sprite = listEnemy[current].appearance;
-            life = listEnemy[current].life;
+            life = listEnemy[current].life+killed*2;
             currentMob = listEnemy[current];
 
         }

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clicDamage: 1
   autoDamage: 1
-  basePriceUpgradeCD: 10
-  basePriceUpgradeAD: 10
+  basePriceUpgradeCD: 2
+  basePriceUpgradeAD: 2
   id: 1
   monsterName: Slime
   front: {fileID: 21300000, guid: ba539d664e0a4cb45be98f164c1a3640, type: 3}
